@@ -2,8 +2,8 @@
  * @param {number} n
  * @return {Function} counter
  */
-var createCounter = function(n) {
-      
+let createCounter = function(n) {
+
     return () => n++
 };
 
